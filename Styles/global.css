@@ -25,20 +25,14 @@
 --font-family-Maven-Pro: 'Maven+Pro', sans-serif;
 
 --title-lg: 700 56px/120% var(--font-family-Asap);
---title-md: 700 24px/120% var(--font-family-Asap);
---title-sm: 450 16px/120% var(--font-family-Asap);
+--title-md: 600 24px/120% var(--font-family-Asap);
+--title-sm: 100 14px/120% var(--font-family-Asap);
+--title-tx: 30 11px/100% var(--font-family-Asap);
 
---subtitle: 700 20px/120% var(--font-family-Inconsolata);
+--subtitle: 600 20px/120% var(--font-family-Inconsolata);
 
---text-md: 500 16px/140% var(--font-family-Maven-Pro);
---text-sm: 400 14px/140% var(--font-family-Maven-Pro);
-
-}
-
-body {
-  font: var(--title-lg);
-  background-color: var(--gray-300);
-  color: var(--gray-600)
+--text-md: 400 16px/140% var(--font-family-Maven-Pro);
+--text-sm: 8 10px/120% var(--font-family-Maven-Pro);
 }
 
 a {
@@ -47,7 +41,7 @@ a {
   font: var(--text-sm);
   }
   a:hover{
-   color: var(--blue);  
+   color: rgb(2, 134, 167);  
   }
 
   h1 {

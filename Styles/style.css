@@ -1,0 +1,39 @@
+body{
+
+
+}
+
+main{
+  background-color: var(--gray-300);
+border: 3px solid red
+;
+}
+
+.parte-1 {
+border: 1px solid rgb(65, 224, 158)
+}
+
+.avatar {
+border: 1px solid blue
+}
+
+.hello{
+border: 1px solid rgb(224, 4, 169)
+}
+
+.desenvolvedor{
+border: 1px solid rgb(190, 230, 11)
+}
+
+.textfinal{
+border: 1px solid rgb(206, 241, 227)
+}
+
+.parte-2{
+border: 1px solid rgb(216, 119, 9)
+}
+
+
+
+
+
