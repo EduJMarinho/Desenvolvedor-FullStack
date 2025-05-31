@@ -27,22 +27,23 @@
 --title-lg: 700 56px/120% var(--font-family-Asap);
 --title-md: 600 24px/120% var(--font-family-Asap);
 --title-sm: 100 14px/120% var(--font-family-Asap);
---title-tx: 30 11px/100% var(--font-family-Asap);
+--title-tx: 500 11px/100% var(--font-family-Asap);
 
---subtitle: 600 20px/120% var(--font-family-Inconsolata);
+--subtitle: 100 20px/120% var(--font-family-Inconsolata);
 
---text-md: 400 16px/140% var(--font-family-Maven-Pro);
+--text-md: 50 16px/140% var(--font-family-Maven-Pro);
 --text-sm: 8 10px/120% var(--font-family-Maven-Pro);
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none;  
   color: inherit;
-  font: var(--text-sm);
-  }
-  a:hover{
-   color: rgb(2, 134, 167);  
-  }
+    }  
+
+a :hover {
+  color: blue;
+}
+
 
   h1 {
   font: var(--title-lg);  
