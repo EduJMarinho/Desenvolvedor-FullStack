@@ -1,51 +1,47 @@
-*{
+  *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; 
+  }
 
-:root {
+  :root {
   /* principais cores */
---red: #E3646E;
---purple:#BB72E9;
---blue:#3996DB;
---green:#82BC4F; 
---yellow:#EABD5F; 
+  --red: #E3646E;
+  --purple:#BB72E9;
+  --blue:#3996DB;
+  --green:#82BC4F; 
+  --yellow:#EABD5F; 
 
-/*cores da base */
---gray-100:#0D0E11; 
---gray-200:#16181D; 
---gray-300:#292C34;
---gray-400:#878EA1; 
---gray-500:#C0C4CE; 
---gray-600:#E2E4E9;
+  /*cores da base */
+  --gray-100:#0D0E11; 
+  --gray-200:#16181D; 
+  --gray-300:#292C34;
+  --gray-400:#878EA1; 
+  --gray-500:#C0C4CE; 
+  --gray-600:#E2E4E9;
 
---font-family-Asap: 'Asap', sans-serif;
---font-family-Inconsolata: 'Inconsolata', sans-serif;
---font-family-Maven-Pro: 'Maven+Pro', sans-serif;
+  --font-family-Asap: 'Asap', sans-serif;
+  --font-family-Inconsolata: 'Inconsolata', sans-serif;
+  --font-family-Maven-Pro: 'Maven+Pro', sans-serif;
 
---title-lg: 700 56px/120% var(--font-family-Asap);
---title-md: 600 24px/120% var(--font-family-Asap);
---title-sm: 100 14px/120% var(--font-family-Asap);
---title-tx: 500 11px/100% var(--font-family-Asap);
+  --title-lg: 700 56px/120% var(--font-family-Asap);
+  --title-md: 600 24px/120% var(--font-family-Asap);
+  --title-sm: 500 14px/120% var(--font-family-Asap);
+  --title-tx: 300 12px/120% var(--font-family-Asap);
 
---subtitle: 100 20px/120% var(--font-family-Inconsolata);
+  --subtitle: 300 20px/120% var(--font-family-Inconsolata);
 
---text-md: 50 16px/140% var(--font-family-Maven-Pro);
---text-sm: 8 10px/120% var(--font-family-Maven-Pro);
-}
+  --text-md: 300 16px/140% var(--font-family-Maven-Pro);
+  --text-sm: 500 14px/140% var(--font-family-Asap);
+  --text-sm2: 50 13px/100% var(--font-family-Maven-Pro);
+  }
 
-a {
+  a {
   text-decoration: none;  
-  color: inherit;
-    }  
+  color: white;
+   }  
 
-a :hover {
-  color: blue;
-}
-
-
-  h1 {
+    h1 {
   font: var(--title-lg);  
   }
   h2 {
@@ -55,3 +51,10 @@ a :hover {
   font: var(--title-sm);  
   }
 
+  h6 {
+   font: var(--title-sm);   
+  }
+
+  h4, h5 {
+    font: var(--text-md); 
+  }
