@@ -138,14 +138,22 @@
   max-width: 100%;
   }
 
-  .grid-container {
+  .section-tree {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .grid-container { 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 24px;
-  width: 1040px;
+  gap: 30px;
+  width: 1340px;
   height: 584px;    
-  margin-top: 56px;    
- }
+  margin-top:76px; 
+  /* margin-left:100px; */
+ 
+
+  }
 
   .grid-container figure{  
   border-radius: 12px;
@@ -173,6 +181,11 @@
   transform: scale(0.9);
   }
 
+  .card{
+    width: 100%;
+    height: 100%
+  }
+  
   .card:hover{
   border: solid 2px var(--gray-500);
   }
